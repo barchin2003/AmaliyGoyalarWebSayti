@@ -20,7 +20,7 @@ Once pip has finished downloading the dependencies:
 ``sh
 (env)$ cd AmaliyGoyalarWebSayti/
 (env)$ python manage.py runserver
-'''
+```
 ```sh
 And navigate to http://127.0.0.1:8000/.
 ```
