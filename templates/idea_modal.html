@@ -1,0 +1,31 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Idea Detail</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/slick.css' %}" type="text/css"/>
+    <link rel="stylesheet" href="{% static 'css/templatemo-style.css' %}">
+</head>
+<body>
+<video autoplay muted loop id="bg-video">
+    <source src="{% static 'video/gfp-astro-timelapse.mp4' %}" type="video/mp4">
+</video>
+<section class="p-24">
+    <div class="items-center rounded-lg p-8 backdrop-opacity-20 text-center">
+        <h1 class="font-bold pt-4">{{ idea.title }}</h1>
+        <p>{{ idea.body }}</p>
+        <a href="{% url 'main' %}">
+            <button class="cursor-pointer px-4 py-2 mt-5 bg-blue-600 text-white rounded-lg hover:bg-blue-500">Ortga qaytish</button>
+        </a>
+    </div>
+
+</section>
+</body>
+</html>
