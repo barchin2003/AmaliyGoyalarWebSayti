@@ -12,7 +12,7 @@ $ pip install pipenv
 $ pipenv shell
 ```
 Then install the dependencies:
-``sh
+```sh
 (env)$ pip install django
 (env)$ pip install Pillow
 ```
@@ -21,6 +21,4 @@ Once pip has finished downloading the dependencies:
 (env)$ cd AmaliyGoyalarWebSayti/
 (env)$ python manage.py runserver
 ```
-```sh
-And navigate to http://127.0.0.1:8000/.
-```
+And navigate to `http://127.0.0.1:8000/swagger/`.
