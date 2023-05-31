@@ -17,7 +17,7 @@ Then install the dependencies:
 (env)$ pip install Pillow
 ```
 Once pip has finished downloading the dependencies:
-``sh
+```sh
 (env)$ cd AmaliyGoyalarWebSayti/
 (env)$ python manage.py runserver
 ```
